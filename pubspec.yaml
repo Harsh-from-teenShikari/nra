@@ -1,0 +1,27 @@
+name: neonatal_resuscitation_aid
+description: Cognitive aid app for neonatal resuscitation in high- and low-resource settings.
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  provider: ^6.0.0
+  audioplayers: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.1
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/audio/
